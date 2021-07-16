@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Search</title>
+    </head>
+    <body>
+        <!-- action indicates the URL we're submiting to -->
+        <form id="all" action="https://www.google.com/advanced_search">
+            <!-- Includes input as a GET parameter in the URL -->
+            <label for="all"> all these words:</label>
+            <input id="all" type="text" name="q">   
+
+            <label for="exact"> this exact word or phrase:</label>
+            <input type="text" name="epq"> 
+            
+            <label for="any"> any of these words:</label>
+            <input type="text" name="oq"> 
+            
+            <label for="none"> none of these words:</label>
+            <input type="text" name="as_">         
+
+
+            <!-- create button with label cosen on value and submits-->
+            <input type="submit" value="Advanced Search">
+        </form>
+
+
+
+    </body>
+</html>
